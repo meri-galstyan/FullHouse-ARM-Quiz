@@ -1,0 +1,64 @@
+body {
+    background-color: darkcyan;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .quiz-box {
+    max-width: 500px;  /* Slightly wider */
+    margin: 40px auto;
+  }
+  
+  h2 {
+    font-size: 30px;   /* Bigger question text */
+    margin-bottom: 20px;
+  }
+  
+  .s1-image {
+    width: 100%;
+    max-width: 320px;  /* Bigger image */
+    margin: 15px 0 25px;
+    border-radius: 8px;
+  }
+  
+  /* Answer styles */
+  label {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  label:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  /* Make radio buttons bigger */
+  input[type="radio"] {
+    transform: scale(1.4);  /* Increase size */
+    margin-right: 12px;
+    accent-color: #ffd166;   /* Makes the circle match the theme */
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #ffd166;
+    border: none;
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffca3a;
+  }
+  
